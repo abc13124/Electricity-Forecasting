@@ -7,7 +7,7 @@
 並使用Support Vector Regression迴歸模型，預測2022/03/30~04/13的備轉容量(MW)。
 
 ## Data Analysis and Feature Selection ##
-如feature.ipynb所示，首先使用pandas.DataFrame.corr以得到各項feature與備轉電力相關的相關係數
+如[feature.ipynb](https://github.com/abc13124/Electricity-Forecasting/blob/main/feature.ipynb)所示，首先使用pandas.DataFrame.corr以得到各項feature與備轉電力相關的相關係數
 
 ```python
 corr_mat = df.corr()
